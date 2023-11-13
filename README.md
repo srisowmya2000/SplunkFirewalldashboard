@@ -8,6 +8,5 @@ Install SPLUNK from the SPlunk website(there is a free version available too).
 
 For the Firewall log, I have used data that I got on one GitHub repo[1] 
 
-
-
+The first and foremost thing to do when you get data is to observe whether the data is structured or Unstructured. If the fields are extracted from the data. 
 
