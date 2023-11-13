@@ -16,3 +16,18 @@ The first and foremost thing to do when you get data is to observe whether the d
    <img width="864" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/299b509f-a18b-4c55-9411-47070904a567">
 
 
+2. Add data
+   <img width="638" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/f7e2a3bd-8cdf-4f75-b41e-03c806426a1e">
+
+3. Upload Data
+ <img width="817" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/18c14148-2154-433c-ba88-47f3e710d04c">
+4. Select the source type
+   <img width="689" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/32fdb501-2da7-4713-b43f-66efb651cced">
+   <img width="940" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/b64d0af0-0453-483c-ac57-464e3a847c58">
+5. Update the input setting. I left it to default and proceeded to the next steps.
+6. 
+
+
+
+
+
