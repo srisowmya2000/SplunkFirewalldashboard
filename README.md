@@ -1,20 +1,17 @@
-# Splunk Firewall dashboard
+**Splunk Firewall Dashboard**
 
+Greetings, everyone! In this repository, I will delve into the intricacies of creating a Firewall dashboard using Splunk.
 
-Hello guys, In this repo I will be discussing the Firewall dashboard. I will use SPLUNK to build the dashboard. 
+**Splunk** is a powerful tool designed for log analysis, simplifying tasks such as data collection, management, sorting, and searching. Within the Splunk tool, we employ SPL _(Search Processing Language)_ to navigate and query the data. You can install Splunk from the official website, and a free version is available.
 
-SPLUNK - It is a tool used for log analysis. It simplifies the task of collecting data, managing data, sorting data, and searching through the data. In the Splunk tool we use SPL is a search-processing language that is used to search in the data in Splunk.
-Install SPLUNK from the SPlunk website(there is a free version available too).
+For the Firewall log, I sourced data from a GitHub repository. 
 
-For the Firewall log, I have used data that I got on one GitHub repo[1] 
+Upon obtaining data, the first crucial step is to determine its structure—whether it is structured or unstructured. In my case, the data is structured, and extensive, and has been divided into two files. Both files have been uploaded to Splunk.
 
-The first and foremost thing to do when you get data is to observe whether the data is structured or Unstructured. If the fields are extracted from the data. I have data that is structured data. The data is huge and I have decided to break it down into two files. And uploaded two files in Splunk. 
+**Getting Data In:**
 
-**Getting Data In**
-
-1. Login into Splunk ( i am using cloud version, it can be local one too with free or enterprise version)
+1. Login into Splunk (I am using the cloud version, it can be a local one too with a free or enterprise version)
    <img width="864" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/299b509f-a18b-4c55-9411-47070904a567">
-
 
 2. Add data
    <img width="638" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/f7e2a3bd-8cdf-4f75-b41e-03c806426a1e">
