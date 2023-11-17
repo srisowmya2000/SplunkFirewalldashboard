@@ -36,7 +36,81 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 8. Using SPL language search the desired fields. For instance, sourcetype="your_sourcetype" | table source_ip. sourcetype="your_sourcetype" | table dest_ip, sourcetype="your_sourcetype" | table port. It can searched individually. Also, it can be searched in a single search SPL like sourcetype="your_sourcetype" | table source_ip, dest_ip, port. In this command, we are exploring ourselves in fields, and Statistics. Source type is a way to categorize or label the type of data you're working with.
 9. Let's break the above command -- **fields** are the individual pieces of data you can work with, such as "source IP address," "destination IP address," or "timestamp." A **table** is like a structured way of organizing information.
     <img width="953" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/c4aa34b4-ee21-4a7d-8b5b-a34b87bebf43">
-10. 
+10. We can sort the search results by adjusting the time. Lik from All time to 24 hours.
+11. Other than the table there are other commands like chart, and stats time chart, which can be used to give the statistics table and also will give the visualization. For instance, index="your_index" sourcetype="your_sourcetype" | chart count over field name
+    <img width="947" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/57aa9ac8-869e-47e5-bf8d-ddba7bcfb531">
+
+12. Also we can use a time chart or stats. [2] Attaching the SPLUNK commands list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References: 
+[2]https://www.splunk.com/en_us/blog/tips-and-tricks/search-commands-stats-chart-and-timechart.html 
+
+    
 
    
 
