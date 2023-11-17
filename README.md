@@ -45,9 +45,20 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 14. Now by using the above command we have generated a Pie chart - sourcetype="your_sourcetype" | chart count over field name
     <img width="931" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/33b5856c-320e-4420-840c-68029a4ce486">
 
-15. Similarly, we can generate different types of graphs. We need to understand clauses like "by", and "over" The by clause is used to group events based on one or more fields.The over clause is used with the time chart command to specify a field for which the time-based chart is created. [3]
+15. Similarly, we can generate different types of graphs. We need to understand clauses like "by", and "over" The by clause is used to group events based on one or more fields. The over clause is used with the time chart command to specify a field for which the time-based chart is created. [3]
 
-16. 
+16. Dashboards:
+    Dashboards are views that are made up of panels. The panels can contain modules such as search boxes, fields, charts, tables, and lists. Dashboard panels are usually connected to reports.[4]
+
+17. Types of dashboard: Classic Dashboard and Dashboard Studio. In Dashboard Studio there are other two types Absolute and Grid. [5] About creating the dashboard attached is the SPLUNK documentation about creating a dashboard. In this Repo, we will stick to the dashboard studio Grid. Name the dashboard and select the grid type. 
+
+<img width="954" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/ad24ece7-a3bf-4c2e-900d-7e5ce41091de">
+
+18. Select on the Database symbol
+ <img width="932" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/61b44efc-78f3-4cfa-84e3-f43c4d3b83d2">
+
+ 19. 
+
     
 
 
@@ -118,6 +129,8 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 References: 
 [2]https://www.splunk.com/en_us/blog/tips-and-tricks/search-commands-stats-chart-and-timechart.html 
 [3] https://docs.splunk.com/Documentation/SCS/current/SearchReference/Introduction
+[4] https://docs.splunk.com/Documentation/Splunk/9.1.1/SearchTutorial/Aboutdashboards#:~:text=Dashboards%20are%20views%20that%20are,a%20new%20or%20existing%20dashboard. 
+[5]https://docs.splunk.com/Documentation/Splunk/9.1.1/SearchTutorial/Createnewdashboard 
     
 
    
