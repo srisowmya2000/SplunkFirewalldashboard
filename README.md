@@ -14,7 +14,7 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
    
    <img width="864" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/299b509f-a18b-4c55-9411-47070904a567">
 
-3. Add data
+3. Add data.
    
    <img width="638" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/f7e2a3bd-8cdf-4f75-b41e-03c806426a1e">
 
