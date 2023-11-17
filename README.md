@@ -10,7 +10,7 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 
 **Getting Data In:**
 
-1. Login into Splunk (I am using the cloud version, it can be a local one too with a free or enterprise version)
+1. Access Splunk, either through the cloud version or locally with the free or enterprise version
    
    <img width="864" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/299b509f-a18b-4c55-9411-47070904a567">
 
@@ -29,8 +29,16 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
    <img width="940" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/b64d0af0-0453-483c-ac57-464e3a847c58">
    
 6. Update the input setting. I left it to default and proceeded to the next steps.
+   
 7. Click on Search and Reporting in the Splunk.
-8. 
+   <img width="957" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/84158b58-6c36-4803-ac6b-fce71990dd55">
+
+8. Using SPL language search the desired fields. For instance, sourcetype="your_sourcetype" | table source_ip. sourcetype="your_sourcetype" | table dest_ip, sourcetype="your_sourcetype" | table port. It can searched individually. Also, it can be searched in a single search SPL like sourcetype="your_sourcetype" | table source_ip, dest_ip, port. In this command, we are exploring ourselves in fields, and Statistics. Source type is a way to categorize or label the type of data you're working with.
+9. Let's break the above command -- **fields** are the individual pieces of data you can work with, such as "source IP address," "destination IP address," or "timestamp." A **table** is like a structured way of organizing information.
+    <img width="953" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/c4aa34b4-ee21-4a7d-8b5b-a34b87bebf43">
+10. 
+
+   
 
 
 
