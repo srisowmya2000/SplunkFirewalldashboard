@@ -41,6 +41,14 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
     <img width="947" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/57aa9ac8-869e-47e5-bf8d-ddba7bcfb531">
 
 12. Also we can use a time chart or stats. [2] Attaching the SPLUNK commands list
+13. Jumping into visualization. There are many graphs in Splunk like bar graphs, line charts, pie charts, heat maps, etc.
+14. Now by using the above command we have generated a Pie chart - sourcetype="your_sourcetype" | chart count over field name
+    <img width="931" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/33b5856c-320e-4420-840c-68029a4ce486">
+
+15. Similarly, we can generate different types of graphs. We need to understand clauses like "by", and "over" The by clause is used to group events based on one or more fields.The over clause is used with the time chart command to specify a field for which the time-based chart is created. [3]
+
+16. 
+    
 
 
 
@@ -109,7 +117,7 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 
 References: 
 [2]https://www.splunk.com/en_us/blog/tips-and-tricks/search-commands-stats-chart-and-timechart.html 
-
+[3] https://docs.splunk.com/Documentation/SCS/current/SearchReference/Introduction
     
 
    
