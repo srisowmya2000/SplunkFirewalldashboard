@@ -15,23 +15,18 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 2. Add data.
    <img width="458" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/f02b6709-cacf-4e70-84af-f2c2e3fbebea">
 
-
-3. Upload Data
-   
- <img width="817" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/18c14148-2154-433c-ba88-47f3e710d04c">
-
+3. Upload Data 
+ <img width="752" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/3b5f0534-18f1-4237-91a8-2210188abea9">
  
-4. Select the source type
-   <img width="689" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/32fdb501-2da7-4713-b43f-66efb651cced">
-   
-   <img width="940" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/b64d0af0-0453-483c-ac57-464e3a847c58">
-   
-6. Update the input setting. I left it to default and proceeded to the next steps.
-   
-7. Click on Search and Reporting in the Splunk.
-   <img width="957" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/84158b58-6c36-4803-ac6b-fce71990dd55">
+4. Select the source type. Set the source type. 
+  <img width="935" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/5f960382-541b-448c-9678-a26d1ef085db">
 
-8. Using SPL language search the desired fields. For instance, sourcetype="your_sourcetype" | table source_ip. sourcetype="your_sourcetype" | table dest_ip, sourcetype="your_sourcetype" | table port. It can searched individually. Also, it can be searched in a single search SPL like sourcetype="your_sourcetype" | table source_ip, dest_ip, port. In this command, we are exploring ourselves in fields, and Statistics. Source type is a way to categorize or label the type of data you're working with.
+5. Update the input setting. I left it to default and proceeded to the next steps.
+   
+6. Click on Search and Reporting in the Splunk.
+   <img width="950" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/060f85bd-0953-4a13-b033-b06d39a83b5b">
+
+7. Using SPL language search the desired fields. For instance, sourcetype="your_sourcetype" | table source_ip. sourcetype="your_sourcetype" | table dest_ip, sourcetype="your_sourcetype" | table port. It can searched individually. Also, it can be searched in a single search SPL like sourcetype="your_sourcetype" | table source_ip, dest_ip, port. In this command, we are exploring ourselves in fields, and Statistics. Source type is a way to categorize or label the type of data you're working with.
 9. Let's break the above command -- **fields** are the individual pieces of data you can work with, such as "source IP address," "destination IP address," or "timestamp." A **table** is like a structured way of organizing information.
     <img width="953" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/c4aa34b4-ee21-4a7d-8b5b-a34b87bebf43">
 10. We can sort the search results by adjusting the time. Lik from All time to 24 hours.
