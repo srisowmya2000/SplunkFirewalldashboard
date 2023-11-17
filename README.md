@@ -54,14 +54,23 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 
 <img width="954" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/ad24ece7-a3bf-4c2e-900d-7e5ce41091de">
 
-18. Select on the Database symbol
+18. Select on the Database Symbol
  <img width="932" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/61b44efc-78f3-4cfa-84e3-f43c4d3b83d2">
 
- 19. 
+ 19. In the data Overview section we have to create a search with SPL.
+      <img width="265" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/b907f6ab-ea49-478a-acf1-53b39c430eaf">
 
-    
+20. Click on Add chart after your search and insert your desired graphs.
+    <img width="119" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/49328c35-f036-4395-90ba-288253b77620">
 
 
+21. Now after adding search and chart
+    <img width="951" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/1e2f6d62-1cfd-4b62-b86a-308087dd8ec9">
+
+21. Now keep adding your searches related to IP address, Ports, Status codes, HTTPS, display device name, and device IDs. There are many things we can do.
+22. The final dashboard that I have developed looks like this. 
+
+![Firewall logs](https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/aab979ce-3b8b-409f-b444-f00e52965bac)
 
 
 
