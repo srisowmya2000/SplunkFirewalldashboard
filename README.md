@@ -28,15 +28,15 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 
 7. Using SPL language search the desired fields. For instance, sourcetype="your_sourcetype" | table source_ip. sourcetype="your_sourcetype" | table dest_ip, sourcetype="your_sourcetype" | table port. It can searched individually. Also, it can be searched in a single search SPL like sourcetype="your_sourcetype" | table source_ip, dest_ip, port. In this command, we are exploring ourselves in fields, and Statistics. Source type is a way to categorize or label the type of data you're working with.
 9. Let's break the above command -- **fields** are the individual pieces of data you can work with, such as "source IP address," "destination IP address," or "timestamp." A **table** is like a structured way of organizing information.
-    <img width="953" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/c4aa34b4-ee21-4a7d-8b5b-a34b87bebf43">
+   
 10. We can sort the search results by adjusting the time. Lik from All time to 24 hours.
 11. Other than the table there are other commands like chart, and stats time chart, which can be used to give the statistics table and also will give the visualization. For instance, index="your_index" sourcetype="your_sourcetype" | chart count over field name
-    <img width="947" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/57aa9ac8-869e-47e5-bf8d-ddba7bcfb531">
+   <img width="956" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/62aac0ac-3db5-4aed-b9dc-55863e86a1c3">
 
 12. Also we can use a time chart or stats. [2] Attaching the SPLUNK commands list
 13. Jumping into visualization. There are many graphs in Splunk like bar graphs, line charts, pie charts, heat maps, etc.
 14. Now by using the above command we have generated a Pie chart - sourcetype="your_sourcetype" | chart count over field name
-    <img width="931" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/33b5856c-320e-4420-840c-68029a4ce486">
+   <img width="935" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/0b85fe2e-e538-47f2-8747-120015b8910a">
 
 15. Similarly, we can generate different types of graphs. We need to understand clauses like "by", and "over" The by clause is used to group events based on one or more fields. The over clause is used with the time chart command to specify a field for which the time-based chart is created. [3]
 
@@ -45,25 +45,28 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 
 17. Types of dashboard: Classic Dashboard and Dashboard Studio. In Dashboard Studio there are other two types Absolute and Grid. [5] About creating the dashboard attached is the SPLUNK documentation about creating a dashboard. In this Repo, we will stick to the dashboard studio Grid. Name the dashboard and select the grid type. 
 
-<img width="954" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/ad24ece7-a3bf-4c2e-900d-7e5ce41091de">
 
 18. Select on the Database Symbol
- <img width="932" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/61b44efc-78f3-4cfa-84e3-f43c4d3b83d2">
+
+ <img width="690" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/33d7b2eb-123a-4fd0-98e6-c46e70621f31">
+
 
  19. In the data Overview section we have to create a search with SPL.
-      <img width="265" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/b907f6ab-ea49-478a-acf1-53b39c430eaf">
+     <img width="263" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/f35b65ee-c6ee-49f6-8f39-393af7044631">
+ 
+21. Click on Add chart after your search and insert your desired graphs.
+    <img width="115" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/1dfa7579-a885-464b-9691-de35e1933e84">
 
-20. Click on Add chart after your search and insert your desired graphs.
-    <img width="119" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/49328c35-f036-4395-90ba-288253b77620">
 
+22. Now after adding search and chart
+    <img width="961" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/6c7ec6b7-1125-4843-bdc0-1f06a1073353">
 
-21. Now after adding search and chart
-    <img width="951" alt="image" src="https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/1e2f6d62-1cfd-4b62-b86a-308087dd8ec9">
 
 21. Now keep adding your searches related to IP address, Ports, Status codes, HTTPS, display device name, and device IDs. There are many things we can do.
 22. The final dashboard that I have developed looks like this. 
 
-![Firewall logs](https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/aab979ce-3b8b-409f-b444-f00e52965bac)
+![Firewall logs](https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/8cd6fe8a-c52b-4fad-8ca4-a0ef983c48d8)
+
 
 
 
