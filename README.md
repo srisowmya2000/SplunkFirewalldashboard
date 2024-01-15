@@ -1,10 +1,12 @@
 **Splunk Firewall Dashboard**
 
-Greetings, everyone! In this repository, I will delve into the intricacies of creating a Firewall dashboard using Splunk.
+Greetings, everyone! In this repository, I will delve into the intricacies of creating a Firewall dashboard using Splunk.By having a firewall dashboard, It helps the security team to heightened visibility into network traffic flowing through the organization's firewalls.
+It enables the rapid detection of anomalies and threats by visualizing key firewall logging data.
+Security teams can gain enhanced situational awareness and threat intelligence through ongoing firewall log analysis, which helps them safeguard digital assets, uphold regulatory compliance, and improve the security posture of the company.
 
 **Splunk** is a powerful tool designed for log analysis, simplifying tasks such as data collection, management, sorting, and searching. Within the Splunk tool, we employ SPL _(Search Processing Language)_ to navigate and query the data. You can install Splunk from the official website, and a free version is available.
 
-For the Firewall log, I sourced data from a GitHub repository. 
+For the Firewall log, I sourced data from a GitHub repository[1]
 
 Upon obtaining data, the first crucial step is to determine its structure—whether it is structured or unstructured. In my case, the data is structured, and extensive, and has been divided into two files. Both files have been uploaded to Splunk.
 
@@ -67,7 +69,22 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 
 ![Firewall logs](https://github.com/srisowmya2000/SplunkFirewalldashboard/assets/59259117/8cd6fe8a-c52b-4fad-8ca4-a0ef983c48d8)
 
+23. **Device Information**
+This panel uses a single-value visualization displaying the device name and device ID. The logs collected by the organization use Fortinet Firewall. In a similar way using a single value the device ID is displayed. This enables the infrastructure awareness in the organization about the device's name and ID.
 
+24. **Bytes**
+Bytes_in and Bytes_out: By using an Area chart, the bytes sent in and sent out are displayed, by using the count which counts the reporting data of the log database. The area visualization is used to get the count of the data sent outside and received. Bandwidth utilization is critical for monitoring traffic patterns and capacity planning. It helps the organization to help the organization with network congestion and capacity building. Also, sudden spikes in bandwidth result in the Denial of Service.
+
+25.**IP Address**
+This panel displays the IP Address in a table which has been used to sort the Source IP, Destination IP and Destination Port. The table has particular destination ports 443 and  80. This table will allow the security team to filter the traffic and analyze the incoming and outgoing traffic. Proper data protection can be established. Diagnosing network traffic and network issues and developing proper decisions to optimize the data and security.
+
+26.**Destination Port**
+By using a pie chart to display the destination ports that have been requested from users in the network, administrators can monitor which ports are being used the most. The pie chart shows the percentage of traffic headed to different ports. The most used port is 443 (HTTPS). This Pie chart enables the security team to improve the infrastructure knowledge of the organization and helps to detect any unapproved port accessed outside the IT port.
+
+27.**Application **
+By using a bar chart the most used application by users in the organization is displayed in the chart. It helps the security team to selectively block or limit risky applications and also investigate the abnormal applications accessed by the user. 
+
+The security team has significantly increased network visibility and can better detect, investigate, and respond to threats. Searches can be conducted across devices for signs of compromise or policy violations. The unified visibility and accelerated detection promote rapid incident response. 
 
 
 
@@ -132,10 +149,12 @@ Upon obtaining data, the first crucial step is to determine its structure—whet
 
 
 References: 
+[1] https://github.com/splunk/botsv1 
 [2]https://www.splunk.com/en_us/blog/tips-and-tricks/search-commands-stats-chart-and-timechart.html 
 [3] https://docs.splunk.com/Documentation/SCS/current/SearchReference/Introduction
 [4] https://docs.splunk.com/Documentation/Splunk/9.1.1/SearchTutorial/Aboutdashboards#:~:text=Dashboards%20are%20views%20that%20are,a%20new%20or%20existing%20dashboard. 
 [5]https://docs.splunk.com/Documentation/Splunk/9.1.1/SearchTutorial/Createnewdashboard 
+
     
 
    
