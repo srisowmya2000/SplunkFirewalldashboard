@@ -81,7 +81,7 @@ This panel displays the IP Address in a table which has been used to sort the So
 26.**Destination Port**
 By using a pie chart to display the destination ports that have been requested from users in the network, administrators can monitor which ports are being used the most. The pie chart shows the percentage of traffic headed to different ports. The most used port is 443 (HTTPS). This Pie chart enables the security team to improve the infrastructure knowledge of the organization and helps to detect any unapproved port accessed outside the IT port.
 
-27.**Application **
+27. **Application** 
 By using a bar chart the most used application by users in the organization is displayed in the chart. It helps the security team to selectively block or limit risky applications and also investigate the abnormal applications accessed by the user. 
 
 The security team has significantly increased network visibility and can better detect, investigate, and respond to threats. Searches can be conducted across devices for signs of compromise or policy violations. The unified visibility and accelerated detection promote rapid incident response. 
